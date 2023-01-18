@@ -1,14 +1,49 @@
-body, css {
+body {
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
-  text-align: center;
+  background-color: blueviolet;
+  font-family: cursive;
 }
 
-body * {
-  margin: 1em;
-  padding: 0;
+#container {
+  max-width: 500px;
+  margin: 2em auto auto auto;
+  background-color: papayawhip;
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+ul li {
+  display: block;
+  padding: 0.75em;
   list-style: none;
+}
+
+ul li h3,
+ul li div {
+  display: inline;
+}
+
+h3 {
+  margin-left: -1em;
+  margin-right: 1em;
+}
+
+input[type="text"],
+input[type="submit"] {
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  color: white;
+  background-color: blueviolet;
+}
+
+input[type="submit"]:active {
+  background-color: rgb(161, 111, 207);
 }
 
 section {
